@@ -35,7 +35,7 @@ function refreshToken()
 
     $qbAuth->setToken($refreshedAccessTokenObj);
 
-    print_r($refreshedAccessTokenObj);
+//    print_r($refreshedAccessTokenObj);
     return $refreshedAccessTokenObj;
 }
 
