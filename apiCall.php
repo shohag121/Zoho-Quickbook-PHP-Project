@@ -31,7 +31,7 @@ function makeAPICall()
     $dataService->updateOAuth2Token($accessToken);
     $companyInfo = $dataService->getCompanyInfo();
     $address = "QBO API call Successful!! Response Company name: " . $companyInfo->CompanyName . " Company Address: " . $companyInfo->CompanyAddr->Line1 . " " . $companyInfo->CompanyAddr->City . " " . $companyInfo->CompanyAddr->PostalCode;
-//    print_r($address);
+    print_r($address);
     return $companyInfo;
 }
 
