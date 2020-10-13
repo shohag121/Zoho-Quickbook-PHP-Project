@@ -1,0 +1,19 @@
+{
+    "name": "shohag/zoho-crm-api-installer",
+    "description": "Zoho CRM API Project Starter. Use it to create a new project easy and fast.",
+    "type": "project",
+    "require": {
+        "zohocrm/php-sdk": "^2.0",
+        "quickbooks/v3-php-sdk": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shazahanul Islam Shohag",
+            "email": "shohag121@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": ["QBAuth.php"]
+    }
+}
